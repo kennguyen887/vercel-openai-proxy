@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "regions": ["iad1", "sfo1", "cdg1", "sin1"], 
   "routes": [
     { "src": "^/v1/chat/completions$", "dest": "/api/openai-proxy" }
   ]
